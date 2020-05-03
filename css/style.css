@@ -641,6 +641,18 @@ header {
 	line-height: 28px;
 }
 
+.contacts::after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	transform: translateX(100%);
+	width: 100vw;
+	height: 485px;
+	background-color: #2c2c2c;
+}
+
 footer {
 	background-color: #2c2c2c;
 	padding: 0 1vw;
